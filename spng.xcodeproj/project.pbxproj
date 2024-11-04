@@ -7,32 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73EB9E6E2CD4771400C26DD9 /* spng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9E6D2CD4771400C26DD9 /* spng.swift */; };
-		73EB9E772CD4773000C26DD9 /* spng.c in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9E762CD4773000C26DD9 /* spng.c */; };
+		73EB9FD02CD8704800C26DD9 /* spng.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9FCF2CD8704800C26DD9 /* spng.m */; };
+		73EB9FD12CD8704800C26DD9 /* spng.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 73EB9FCE2CD8704800C26DD9 /* spng.h */; };
+		73EB9FD92CD8705A00C26DD9 /* spng.c in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9FD82CD8705A00C26DD9 /* spng.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		73EB9E682CD4771400C26DD9 /* CopyFiles */ = {
+		73EB9FC92CD8704800C26DD9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				73EB9FD12CD8704800C26DD9 /* spng.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		73EB9E6A2CD4771400C26DD9 /* libspng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libspng.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		73EB9E6D2CD4771400C26DD9 /* spng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spng.swift; sourceTree = "<group>"; };
-		73EB9E742CD4772F00C26DD9 /* spng-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "spng-Bridging-Header.h"; sourceTree = "<group>"; };
-		73EB9E752CD4773000C26DD9 /* spng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = spng.h; path = ../../../spng.h; sourceTree = "<group>"; };
-		73EB9E762CD4773000C26DD9 /* spng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = spng.c; path = ../../../spng.c; sourceTree = "<group>"; };
+		73EB9FCB2CD8704800C26DD9 /* libspng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libspng.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		73EB9FCE2CD8704800C26DD9 /* spng.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spng.h; sourceTree = "<group>"; };
+		73EB9FCF2CD8704800C26DD9 /* spng.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spng.m; sourceTree = "<group>"; };
+		73EB9FD72CD8705A00C26DD9 /* spng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = spng.h; path = ../../../spng.h; sourceTree = "<group>"; };
+		73EB9FD82CD8705A00C26DD9 /* spng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = spng.c; path = ../../../spng.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		73EB9E672CD4771400C26DD9 /* Frameworks */ = {
+		73EB9FC82CD8704800C26DD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,29 +44,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		73EB9E612CD4771400C26DD9 = {
+		73EB9FC22CD8704800C26DD9 = {
 			isa = PBXGroup;
 			children = (
-				73EB9E6C2CD4771400C26DD9 /* spng */,
-				73EB9E6B2CD4771400C26DD9 /* Products */,
+				73EB9FCD2CD8704800C26DD9 /* spng */,
+				73EB9FCC2CD8704800C26DD9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		73EB9E6B2CD4771400C26DD9 /* Products */ = {
+		73EB9FCC2CD8704800C26DD9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73EB9E6A2CD4771400C26DD9 /* libspng.a */,
+				73EB9FCB2CD8704800C26DD9 /* libspng.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		73EB9E6C2CD4771400C26DD9 /* spng */ = {
+		73EB9FCD2CD8704800C26DD9 /* spng */ = {
 			isa = PBXGroup;
 			children = (
-				73EB9E762CD4773000C26DD9 /* spng.c */,
-				73EB9E752CD4773000C26DD9 /* spng.h */,
-				73EB9E6D2CD4771400C26DD9 /* spng.swift */,
-				73EB9E742CD4772F00C26DD9 /* spng-Bridging-Header.h */,
+				73EB9FD82CD8705A00C26DD9 /* spng.c */,
+				73EB9FCE2CD8704800C26DD9 /* spng.h */,
+				73EB9FD72CD8705A00C26DD9 /* spng.h */,
+				73EB9FCF2CD8704800C26DD9 /* spng.m */,
 			);
 			path = spng;
 			sourceTree = "<group>";
@@ -72,13 +74,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		73EB9E692CD4771400C26DD9 /* spng */ = {
+		73EB9FCA2CD8704800C26DD9 /* spng */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73EB9E712CD4771400C26DD9 /* Build configuration list for PBXNativeTarget "spng" */;
+			buildConfigurationList = 73EB9FD42CD8704800C26DD9 /* Build configuration list for PBXNativeTarget "spng" */;
 			buildPhases = (
-				73EB9E662CD4771400C26DD9 /* Sources */,
-				73EB9E672CD4771400C26DD9 /* Frameworks */,
-				73EB9E682CD4771400C26DD9 /* CopyFiles */,
+				73EB9FC72CD8704800C26DD9 /* Sources */,
+				73EB9FC82CD8704800C26DD9 /* Frameworks */,
+				73EB9FC92CD8704800C26DD9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -86,26 +88,24 @@
 			);
 			name = spng;
 			productName = spng;
-			productReference = 73EB9E6A2CD4771400C26DD9 /* libspng.a */;
+			productReference = 73EB9FCB2CD8704800C26DD9 /* libspng.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		73EB9E622CD4771400C26DD9 /* Project object */ = {
+		73EB9FC32CD8704800C26DD9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					73EB9E692CD4771400C26DD9 = {
+					73EB9FCA2CD8704800C26DD9 = {
 						CreatedOnToolsVersion = 15.2;
-						LastSwiftMigration = 1520;
 					};
 				};
 			};
-			buildConfigurationList = 73EB9E652CD4771400C26DD9 /* Build configuration list for PBXProject "spng" */;
+			buildConfigurationList = 73EB9FC62CD8704800C26DD9 /* Build configuration list for PBXProject "spng" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,30 +113,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 73EB9E612CD4771400C26DD9;
-			productRefGroup = 73EB9E6B2CD4771400C26DD9 /* Products */;
+			mainGroup = 73EB9FC22CD8704800C26DD9;
+			productRefGroup = 73EB9FCC2CD8704800C26DD9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				73EB9E692CD4771400C26DD9 /* spng */,
+				73EB9FCA2CD8704800C26DD9 /* spng */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		73EB9E662CD4771400C26DD9 /* Sources */ = {
+		73EB9FC72CD8704800C26DD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73EB9E6E2CD4771400C26DD9 /* spng.swift in Sources */,
-				73EB9E772CD4773000C26DD9 /* spng.c in Sources */,
+				73EB9FD02CD8704800C26DD9 /* spng.m in Sources */,
+				73EB9FD92CD8705A00C26DD9 /* spng.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		73EB9E6F2CD4771400C26DD9 /* Debug */ = {
+		73EB9FD22CD8704800C26DD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -194,12 +194,10 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		73EB9E702CD4771400C26DD9 /* Release */ = {
+		73EB9FD32CD8704800C26DD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -250,39 +248,31 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		73EB9E722CD4771400C26DD9 /* Debug */ = {
+		73EB9FD52CD8704800C26DD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WV9454F626;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "spng/spng-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../..\"";
 			};
 			name = Debug;
 		};
-		73EB9E732CD4771400C26DD9 /* Release */ = {
+		73EB9FD62CD8704800C26DD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WV9454F626;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "spng/spng-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../..\"";
 			};
@@ -291,25 +281,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		73EB9E652CD4771400C26DD9 /* Build configuration list for PBXProject "spng" */ = {
+		73EB9FC62CD8704800C26DD9 /* Build configuration list for PBXProject "spng" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73EB9E6F2CD4771400C26DD9 /* Debug */,
-				73EB9E702CD4771400C26DD9 /* Release */,
+				73EB9FD22CD8704800C26DD9 /* Debug */,
+				73EB9FD32CD8704800C26DD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73EB9E712CD4771400C26DD9 /* Build configuration list for PBXNativeTarget "spng" */ = {
+		73EB9FD42CD8704800C26DD9 /* Build configuration list for PBXNativeTarget "spng" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73EB9E722CD4771400C26DD9 /* Debug */,
-				73EB9E732CD4771400C26DD9 /* Release */,
+				73EB9FD52CD8704800C26DD9 /* Debug */,
+				73EB9FD62CD8704800C26DD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 73EB9E622CD4771400C26DD9 /* Project object */;
+	rootObject = 73EB9FC32CD8704800C26DD9 /* Project object */;
 }
