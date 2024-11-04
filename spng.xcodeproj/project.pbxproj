@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73EB9FD02CD8704800C26DD9 /* spng.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9FCF2CD8704800C26DD9 /* spng.m */; };
-		73EB9FD12CD8704800C26DD9 /* spng.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 73EB9FCE2CD8704800C26DD9 /* spng.h */; };
 		73EB9FD92CD8705A00C26DD9 /* spng.c in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9FD82CD8705A00C26DD9 /* spng.c */; };
 /* End PBXBuildFile section */
 
@@ -19,7 +17,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				73EB9FD12CD8704800C26DD9 /* spng.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -27,8 +24,6 @@
 
 /* Begin PBXFileReference section */
 		73EB9FCB2CD8704800C26DD9 /* libspng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libspng.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		73EB9FCE2CD8704800C26DD9 /* spng.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spng.h; sourceTree = "<group>"; };
-		73EB9FCF2CD8704800C26DD9 /* spng.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spng.m; sourceTree = "<group>"; };
 		73EB9FD72CD8705A00C26DD9 /* spng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = spng.h; path = ../../../spng.h; sourceTree = "<group>"; };
 		73EB9FD82CD8705A00C26DD9 /* spng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = spng.c; path = ../../../spng.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,9 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				73EB9FD82CD8705A00C26DD9 /* spng.c */,
-				73EB9FCE2CD8704800C26DD9 /* spng.h */,
 				73EB9FD72CD8705A00C26DD9 /* spng.h */,
-				73EB9FCF2CD8704800C26DD9 /* spng.m */,
 			);
 			path = spng;
 			sourceTree = "<group>";
@@ -128,7 +121,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73EB9FD02CD8704800C26DD9 /* spng.m in Sources */,
 				73EB9FD92CD8705A00C26DD9 /* spng.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
